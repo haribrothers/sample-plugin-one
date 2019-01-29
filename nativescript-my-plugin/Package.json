@@ -1,0 +1,12 @@
+{
+    "name": "nativescript-my-plugin",
+    "version": "1.0.0",
+    "main": "my-plugin",
+    "typings": "index.d.ts",
+    "description": "Your awesome NativeScript plugin.",
+    "nativescript": {
+        "platforms": {
+            "ios": "3.0.0"
+        }
+    }
+} 
