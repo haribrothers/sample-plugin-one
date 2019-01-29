@@ -8,4 +8,4 @@ tns run ios --emulator
 npm i tns-platform-declarations --save-dev
 add "references.d.ts" file in root
 
-TNS_TYPESCRIPT_DECLARATIONS_PATH="($pwd)/typings" tns build ios
+TNS_TYPESCRIPT_DECLARATIONS_PATH="$(pwd)/typings" tns build ios --release

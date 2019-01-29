@@ -5,12 +5,12 @@
             "version": "5.1.0"
         },
         "tns-ios": {
-            "version": "5.1.1"
+            "version": "5.0.0"
         }
     },
     "scripts": {
         "add.typingz": "TNS_TYPESCRIPT_DECLARATIONS_PATH=\"$(pwd)/typings\" tns build ios --release",
-        "build.plugin": "tsc nativescript-blinkid/blinkid.ios.ts references.d.ts --lib es2016 -d true && mv nativescript-blinkid/blinkid.ios.d.ts nativescript-blinkid/index.d.ts && tns plugin remove nativescript-blinkid && tns plugin add nativescript-blinkid",
+        "build.plugin": "tsc nativescript-my-plugin/my-plugin.ios.ts references.d.ts --lib es2016 -d true && mv nativescript-blinkid/blinkid.ios.d.ts nativescript-blinkid/index.d.ts && tns plugin remove nativescript-blinkid && tns plugin add nativescript-blinkid",
         "start": "npm run build.blinkid && tns run ios",
         "debug": "npm run build.blinkid && tns debug ios"
     },
